@@ -1,10 +1,10 @@
 
 document.querySelector("#ingresar").onclick = function() {
-    let nombreUsuario = document.querySelector("#nombre_usuario").value;
-    let segundoNombre = document.querySelector("#segundo_nombre_usuario").value;
-    let apellidoUsuario = document.querySelector("#apellido_usuario").value;
-    let edadUsuario = document.querySelector("#edad_usuario").value;
+    const nombreUsuario = document.querySelector("#nombre-usuario").value;
+    const segundoNombre = document.querySelector("#segundo-nombre-usuario").value;
+    const apellidoUsuario = document.querySelector("#apellido-usuario").value;
+    const edadUsuario = document.querySelector("#edad-usuario").value;
 
-    document.querySelector("#datos_usuario").innerHTML= `${nombreUsuario} ${segundoNombre} ${apellidoUsuario} de ${edadUsuario} años`;
+    document.querySelector("#datos-usuario").innerHTML= `${nombreUsuario} ${segundoNombre} ${apellidoUsuario} de ${edadUsuario} años`;
     document.querySelector("h1").innerHTML = `¡Bienvenido ${nombreUsuario}!`
 }
